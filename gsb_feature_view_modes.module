@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature View Modes feature.
+ */
+
+include_once 'gsb_feature_view_modes.features.inc';
