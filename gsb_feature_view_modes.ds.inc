@@ -39,5 +39,14 @@ function gsb_feature_view_modes_ds_view_modes_info() {
   );
   $export['main_list'] = $ds_view_mode;
 
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'program_contact';
+  $ds_view_mode->label = 'Program Contact';
+  $ds_view_mode->entities = array(
+    'node' => 'node',
+  );
+  $export['program_contact'] = $ds_view_mode;
+
   return $export;
 }
