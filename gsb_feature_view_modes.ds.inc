@@ -50,6 +50,15 @@ function gsb_feature_view_modes_ds_view_modes_info() {
 
   $ds_view_mode = new stdClass();
   $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'faculty_teaching_programs';
+  $ds_view_mode->label = 'Faculty Teaching Programs';
+  $ds_view_mode->entities = array(
+    'node' => 'node',
+  );
+  $export['faculty_teaching_programs'] = $ds_view_mode;
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
   $ds_view_mode->view_mode = 'faculty_two';
   $ds_view_mode->label = 'Faculty Two';
   $ds_view_mode->entities = array(
