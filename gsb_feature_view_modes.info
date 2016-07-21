@@ -14,6 +14,7 @@ features[ds_view_modes][] = faculty_one
 features[ds_view_modes][] = faculty_teaching_programs
 features[ds_view_modes][] = faculty_two
 features[ds_view_modes][] = field_program_faculty
+features[ds_view_modes][] = field_program_who_should_attend
 features[ds_view_modes][] = guest_speakers_advisors
 features[ds_view_modes][] = main_list
 features[ds_view_modes][] = program_contact

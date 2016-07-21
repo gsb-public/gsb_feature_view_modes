@@ -77,6 +77,15 @@ function gsb_feature_view_modes_ds_view_modes_info() {
 
   $ds_view_mode = new stdClass();
   $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'field_program_who_should_attend';
+  $ds_view_mode->label = 'Program Who Should Attend';
+  $ds_view_mode->entities = array(
+    'node' => 'node',
+  );
+  $export['field_program_who_should_attend'] = $ds_view_mode;
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
   $ds_view_mode->view_mode = 'guest_speakers_advisors';
   $ds_view_mode->label = 'Guest Speakers and Advisors';
   $ds_view_mode->entities = array(
